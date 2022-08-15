@@ -1,0 +1,104 @@
+ .top-bar {
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
+
+ .btn-light {
+     background-color: #fff;
+     border-color: #dee2e6;
+     color: #212529;
+ }
+
+.btn-light:hover {
+    border-color: #c1c9d0;
+    color: $primary;
+}
+
+.btn-light:hover i {
+    color: $primary;
+}
+
+.btn-light i {
+    color: #9da1a7;
+}
+.nav__height{
+    max-height: 250px;
+    a{
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color: $primary;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+.img-wrap{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: block;
+    padding: 1rem;
+    justify-content: center;
+}
+.img-wrap img{
+    
+    height: 100%;
+    object-fit: cover;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.card .title{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.info-wrap{
+    padding: 1rem;
+}
+
+.breadcrumb a{
+    color: #fff;
+    opacity: 0.8;
+}
+.gallery-wrap .img-big{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 100%     
+}
+.gallery-wrap .thumbs-wrap{
+    text-align: center;
+}
+.gallery-wrap .thumbs-wrap a{
+
+    border: 1px solid #dde2e6;
+    border-radius: 10px;
+    margin: 3px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-wrap .thumbs-wrap img{
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+.checked{
+    color: orange;
+}
+@media(min-width:1200px){
+    .nav__height{
+        max-height: 300px;
+    }
+}
+@media(min-width:1400px){
+    .nav__height{
+        max-height: 350px;
+    }
+}
+
